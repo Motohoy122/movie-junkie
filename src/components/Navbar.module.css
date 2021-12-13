@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8px;
+    background-color: rgba(93,63,211, 0.6);
+    color: white;
+    height: 55px;
+    z-index: 1;
+    /* opacity: .6; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.logo img {
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+}
+
+.links {
+    /* margin: 5px 0; */
+    display: flex;
+    align-items: center;
+}
+
+.links Button {
+    height: 30px;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    opacity: 1;
+}
+
+.links Button:hover {
+    color: black;
+    border-color: black;
+}
