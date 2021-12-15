@@ -98,6 +98,7 @@ const Navbar = () => {
                     <img src={logo} alt='Movie Junkie Logo' onClick={routeChangeHome} />
                 </div>
                 <div className={styles.links}>
+                    <img onClick={handleGoogleAuth} src={photo} alt={userName} />  
                     <Button onClick={handleGoogleAuth} variant="outlined">Sign Out</Button>
                 </div>
             </div>

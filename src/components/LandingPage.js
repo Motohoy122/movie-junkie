@@ -1,12 +1,7 @@
-
-import { useNavigate } from 'react-router-dom';
 import styles from './LandingPage.module.css';
 import Button from '@mui/material/Button';
 
-const LandingPage = () => {
-    const history = useNavigate();
-
-    
+const LandingPage = () => {  
 
     return (
         <div>

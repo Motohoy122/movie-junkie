@@ -1,0 +1,29 @@
+.container {
+    padding: 5px;
+    height: 100%;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+    /* display: flex; */
+    columns: 2;
+    -webkit-columns: 2;
+}
+
+form .radio {
+    margin-top: 3px;
+}
+
+.formFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.formFooter Button{
+    float: right;
+    margin: 10px;
+}

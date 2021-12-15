@@ -29,6 +29,10 @@
     align-items: center;
 }
 
+.links img {
+    height: 100%;
+}
+
 .links Button {
     height: 30px;
     color: whitesmoke;
